@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "about-me",
+      "description": "Un desarrollador de software sonriendo y mirando a la cámara.",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d1469c9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzb2Z0d2FyZSUyMGRldmVsb3BlcnxlbnwwfHx8fDE3NTk3ODM4Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "software developer"
+    },
+    {
+      "id": "smartstudy",
+      "description": "Screenshot of the SmartStudy education platform.",
+      "imageUrl": "https://images.unsplash.com/photo-1588912914078-2fe5224fd8b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb24lMjBwbGF0Zm9ybXxlbnwwfHx8fDE3NTk3MjUwNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "education platform"
+    },
+    {
+      "id": "mundo-gumi",
+      "description": "Screenshot of the Mundo Gumi e-commerce website.",
+      "imageUrl": "https://storage.googleapis.com/aip-dev-st-images-0-1/public/ocr_1720516641657.png",
+      "imageHint": "crochet amigurumi"
+    },
+    {
+      "id": "tenis-ranking",
+      "description": "Screenshot of the Tenis Ranking App.",
+      "imageUrl": "https://picsum.photos/seed/tenisranking/600/400",
+      "imageHint": "sports dashboard"
+    },
+    {
+      "id": "newsletter-microservice",
+      "description": "Visual representation of a backend microservice.",
+      "imageUrl": "https://images.unsplash.com/photo-1667372531881-6f975b1c86db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYWNrZW5kJTIwY29kZXxlbnwwfHx8fDE3NTk3NTIzMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "backend code"
+    }
+  ]
+}
