@@ -15,6 +15,18 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'picsum.photos',
       },
+      {
+        protocol: 'https',
+        hostname: 'postimages.org',
+      },
+      {
+        protocol: 'https',
+        hostname: '1.postimg.cc', // ← Agrega este subdominio
+      },
+      {
+        protocol: 'https',
+        hostname: '*.postimg.cc', // ← Esto cubre todos los subdominios
+      },
     ],
   },
 };
