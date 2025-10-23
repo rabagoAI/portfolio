@@ -2,9 +2,9 @@ import { Button } from '@/components/ui/button';
 import { Github, Linkedin, Mail } from 'lucide-react';
 
 const contact = {
-  email: 'tu-email-profesional@ejemplo.com',
-  linkedin: 'https://www.linkedin.com/in/your-profile',
-  github: 'https://github.com/your-profile',
+  email: 'pacoalfair@hotmail.com',
+  linkedin: 'https://www.linkedin.com/in/francisco-garcia-rabago-445b20aa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2F7UiM0KRQqeIy6VKp7On1g%3D%3D',
+  github: 'https://github.com/rabagoAI',
 };
 
 export default function Contact() {
