@@ -31,12 +31,12 @@ const projects = [
     demoUrl: 'https://uxrescue.vercel.app/',
   },
   {
-    id: 'newsletter-microservice',
-    title: 'Microservicio Newsletter - SmartStudy',
-    description: 'Sistema de gestión de newsletters con interfaz moderna y eficiente. Desarrollado con las últimas tecnologías frontend para máxima performance y experiencia de usuario.',
-    technologies: ['React 19', 'Tailwind CSS 4', 'Vite', 'TypeScript', 'Lucide React'],
-    githubUrl: 'https://github.com/rabagoAI/newsletter-ia.git',
-    demoUrl: 'https://newsletter-ia.vercel.app/',
+    id: 'crypto-dashboard',
+    title: 'Crypto-Dashboard',
+    description: 'Aplicación web moderna para tracking de criptomonedas en tiempo real con gráficos interactivos y gestión de favoritos.',
+    technologies: ['React 18.2.0', 'Tailwind CSS 3.4.3', 'Vite 7.2.2', 'TypeScript', 'Lucide React'],
+    githubUrl: 'https://github.com/rabagoAI/crypto-dashboard.git',
+    demoUrl: 'https://crypto-dashboard-ph57883kj-rabagoais-projects.vercel.app/',
   },
 ];
 
