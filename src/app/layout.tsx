@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
+import ScrollFix from '@/components/scroll-fix'; // ← Nuevo import
 
 export const metadata: Metadata = {
   title: 'Francisco García Portfolio',
@@ -19,31 +20,10 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
-        {/* Script para prevenir scroll automático */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Prevenir scroll automático inmediatamente
-              if (window.location.hash) {
-                window.history.replaceState(null, null, ' ');
-              }
-              // Scroll al top en carga inicial
-              window.addEventListener('load', function() {
-                setTimeout(function() {
-                  window.scrollTo(0, 0);
-                }, 0);
-              });
-              // Scroll al top también en DOMContentLoaded por si acaso
-              document.addEventListener('DOMContentLoaded', function() {
-                setTimeout(function() {
-                  window.scrollTo(0, 0);
-                }, 0);
-              });
-            `
-          }}
-        />
+        {/* ⚠️ ELIMINADO: El script que causaba el error */}
       </head>
       <body className="font-body antialiased" suppressHydrationWarning>
+        <ScrollFix /> {/* ← Agregar este componente */}
         {children}
         <Toaster />
       </body>
