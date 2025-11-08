@@ -11,13 +11,13 @@ export default function About() {
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-              Mi Pasión por el Código
+              Mi Pasión por el Código Inteligente
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Soy un desarrollador de software apasionado por resolver problemas complejos y construir aplicaciones que no solo funcionen a la perfección, sino que también ofrezcan una experiencia de usuario excepcional. Mi curiosidad me ha llevado a dominar tanto la lógica del backend, con la potencia de <strong>Java</strong> y <strong>Spring Boot</strong>, como la interactividad del frontend, creando interfaces dinámicas y atractivas con <strong>React</strong>.
+              Soy un desarrollador que combina fundamentos sólidos de programación con las últimas herramientas de IA para crear soluciones web eficientes y modernas. Mi experiencia abarca desde la lógica robusta del backend con <strong>Java y Spring Boot</strong>  hasta interfaces dinámicas con <strong>React</strong>, pero mi verdadero diferencial está en cómo integro <strong>inteligencia artificial y automatización</strong> en todo el ciclo de desarrollo.
             </p>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Disfruto trabajando en todo el ciclo de vida del desarrollo, desde la conceptualización de una idea hasta su despliegue final con herramientas como <strong>Firebase</strong>. Siempre estoy en busca de nuevos retos y aprendiendo continuamente para mantenerme a la vanguardia tecnológica.
+              Disfruto transformando procesos complejos en aplicaciones elegantes, habiendo implementado desde pasarelas de pago hasta flujos de trabajo automatizados con n8n. Mi enfoque es claro: usar la tecnología no solo para construir lo que funciona, sino para crear lo que aporta valor real, manteniéndome siempre en la vanguardia del desarrollo asistido por IA.
             </p>
           </div>
           <div className="flex justify-center">
